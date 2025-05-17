@@ -1,186 +1,66 @@
 [
   {
-    "firstName": "Gino",
-    "lastName": "Sawayn-Little",
-    "email": "nadim.cse.edu+6813@gmail.com",
-    "password": "zM2EkvwiG7U8nlj",
-    "phoneNumber": "01208208274",
-    "address": "North Darwin"
-  },
-  {
-    "firstName": "Adolf",
-    "lastName": "Wyman",
-    "email": "nadim.cse.edu+7292@gmail.com",
-    "password": "4F0TUMZBdEy0Ynl",
-    "phoneNumber": "01205200023",
-    "address": "Kuhicstead"
-  },
-  {
-    "firstName": "Libby",
-    "lastName": "D'Amore",
-    "email": "nadim.cse.edu+1336@gmail.com",
-    "password": "9ywt7KXzTaIlxv0",
-    "phoneNumber": "01209758491",
-    "address": "Lake Kendra"
-  },
-  {
-    "firstName": "Jarvis",
-    "lastName": "Balistreri",
-    "email": "nadim.cse.edu+1355@gmail.com",
-    "password": "xnlvD_wkysjCIOJ",
-    "phoneNumber": "01203602007",
-    "address": "Bergestead"
-  },
-  {
-    "firstName": "Cade",
-    "lastName": "Connelly",
-    "email": "nadim.cse.edu+2935@gmail.com",
+    "firstName": "Vincent",
+    "lastName": "Reynolds",
+    "email": "nadim.cse.edu+4547@gmail.com",
     "password": "123478",
-    "phoneNumber": "01204521523",
-    "address": "Havenview"
+    "phoneNumber": "01207460993",
+    "address": "Burleson"
   },
   {
-    "firstName": "Gerda",
-    "lastName": "Heathcote",
-    "email": "nadim.cse.edu+2714@gmail.com",
-    "password": "123478",
-    "phoneNumber": "01203011251",
-    "address": "Johnsboro"
+    "firstName": "Nellie",
+    "lastName": "Lockman",
+    "email": "nadim.cse.edu+7019@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01204127408",
+    "address": "Cassinside"
   },
   {
-    "firstName": "Trent",
-    "lastName": "Windler",
-    "email": "nadim.cse.edu+8137@gmail.com",
-    "password": "123478",
-    "phoneNumber": "01207898120",
-    "address": "Niagara Falls"
+    "firstName": "Rosanna",
+    "lastName": "Carter",
+    "email": "nadim.cse.edu+5094@gmail.com",
+    "password": "12345678910",
+    "phoneNumber": "01201364275",
+    "address": "Kutchbury"
   },
   {
-    "firstName": "Morton",
-    "lastName": "Murray",
-    "email": "nadim.cse.edu+2842@gmail.com",
-    "password": "123478",
-    "phoneNumber": "01204761500",
-    "address": "Rowland Heights"
+    "firstName": "Octavia",
+    "lastName": "Armstrong",
+    "email": "nadim.cse.edu+6106@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01202268330",
+    "address": "Schmelerburgh"
   },
   {
-    "firstName": "Newell",
-    "lastName": "Cole",
-    "email": "nadim.cse.edu+2558@gmail.com",
-    "password": "123478",
-    "phoneNumber": "01204069941",
-    "address": "Port Madisonfield"
+    "firstName": "Kyle",
+    "lastName": "Bahringer",
+    "email": "nadim.cse.edu+7741@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01202926029",
+    "address": "Fontana"
   },
   {
-    "firstName": "Lloyd",
-    "lastName": "Paucek",
-    "email": "nadim.cse.edu+1447@gmail.com",
-    "password": "I7ve3Ta4hb5jyvz",
-    "phoneNumber": "01205125687",
-    "address": "New Christophe"
+    "firstName": "Dwight",
+    "lastName": "Bruen",
+    "email": "nadim.cse.edu+3633@gmail.com",
+    "password": "BFyVH8swC38WGlU",
+    "phoneNumber": "01208350413",
+    "address": "Marquardtbury"
   },
   {
-    "firstName": "Kelsie",
-    "lastName": "Champlin",
-    "email": "nadim.cse.edu+6875@gmail.com",
-    "password": "123478",
-    "phoneNumber": "01205680780",
-    "address": "New Koreyfort"
+    "firstName": "Maida",
+    "lastName": "Reynolds",
+    "email": "nadim.cse.edu+5522@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01209522194",
+    "address": "Cedar Park"
   },
   {
-    "firstName": "Annabell",
-    "lastName": "Doyle",
-    "email": "nadim.cse.edu+4318@gmail.com",
-    "password": "123478",
-    "phoneNumber": "01205527134",
-    "address": "Lake Stephonville"
-  },
-  {
-    "firstName": "Donnie",
-    "lastName": "Thompson",
-    "email": "nadim.cse.edu+8578@gmail.com",
-    "password": "TPiiscZnUm2TfY2",
-    "phoneNumber": "01204673697",
-    "address": "Jacynthehaven"
-  },
-  {
-    "firstName": "Glenda",
-    "lastName": "Schiller",
-    "email": "nadim.cse.edu+5022@gmail.com",
-    "password": "0nwXRoizd3OKe2F",
-    "phoneNumber": "01209012349",
-    "address": "North Beatrice"
-  },
-  {
-    "firstName": "Elenor",
-    "lastName": "Harris",
-    "email": "nadim.cse.edu+3036@gmail.com",
-    "password": "123478",
-    "phoneNumber": "01205702070",
-    "address": "Predovicton"
-  },
-  {
-    "firstName": "Micheal",
-    "lastName": "Crist",
-    "email": "nadim.cse.edu+2285@gmail.com",
-    "password": "4uZeXnc9ofuUCIm",
-    "phoneNumber": "01205593875",
-    "address": "Schuppestad"
-  },
-  {
-    "firstName": "Ceasar",
-    "lastName": "Weber",
-    "email": "nadim.cse.edu+3362@gmail.com",
-    "password": "123478",
-    "phoneNumber": "01206185877",
-    "address": "Garnettburgh"
-  },
-  {
-    "firstName": "Kathryn",
-    "lastName": "DuBuque",
-    "email": "nadim.cse.edu+2352@gmail.com",
-    "password": "D4u2q6ulEaVOUZj",
-    "phoneNumber": "01202840942",
-    "address": "Port Mittieland"
-  },
-  {
-    "firstName": "Laurence",
-    "lastName": "Kertzmann",
-    "email": "nadim.cse.edu+4905@gmail.com",
-    "password": "q4dSNBAJfxFSoKS",
-    "phoneNumber": "01206586546",
-    "address": "Inglewood"
-  },
-  {
-    "firstName": "Trenton",
-    "lastName": "Mertz",
-    "email": "nadim.cse.edu+7299@gmail.com",
-    "password": "123478",
-    "phoneNumber": "01208793135",
-    "address": "Wheaton"
-  },
-  {
-    "firstName": "Dianna",
-    "lastName": "MacGyver",
-    "email": "nadim.cse.edu+7079@gmail.com",
-    "password": "4zgZvgp5UKw4Gim",
-    "phoneNumber": "01202750471",
-    "address": "Lake Hanna"
-  },
-  {
-    "firstName": "Rogelio",
-    "lastName": "Bogan",
-    "email": "nadim.cse.edu+9049@gmail.com",
-    "password": "oZfxkTuH1ExFsF5",
-    "phoneNumber": "01205644336",
-    "address": "Marioburgh"
-  },
-  {
-    "firstName": "Mozell",
-    "lastName": "Schuster",
-    "email": "nadim.cse.edu+1491@gmail.com",
-    "password": "123478",
-    "phoneNumber": "01206372524",
-    "address": "Devanfield"
+    "firstName": "Tierra",
+    "lastName": "Gutmann",
+    "email": "nadim.cse.edu+9833@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01201184608",
+    "address": "Bergecester"
   }
 ]

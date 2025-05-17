@@ -24,19 +24,20 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
-  expect: {
-    timeout: 10000, 
-  },
+  // reporter: 'html',
+  // expect: {
+  //   timeout: 10000, 
+  // },
   // reporter: [
   //   ['list'],          // Console output style
   //   ['html', { outputFolder: 'playwright-report', open: 'never' }]
   // ],
 
-  // reporter: [
-  //   ['list'],  // console output
-  //   ['allure-playwright']
-  // ],
+  reporter: [
+    ['html'],
+    ['list'],  // console output
+    ['allure-playwright']
+  ],
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {

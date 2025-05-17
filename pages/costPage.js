@@ -38,6 +38,7 @@ class CostPage {
 }
 
     async addItem(costModel) {
+      
         await this.btnAddCost.click();
        
         await this.txtItemName.fill(costModel.name);
@@ -52,8 +53,6 @@ class CostPage {
     async getItemCount() {
     return await this.itemRows.count();
   }
-
-
 
 }
 export default CostPage;

@@ -3,12 +3,12 @@ import jsonData from "../utils/userData.json" ;
 import fs from 'fs';
 import path from 'path';
 import ResetPasswordPage from '../pages/resetPasswordPage.js';
-import { getLatestEmailId, getEmailBody } from '../utils/utils.js';
+import { getEmailBody } from '../utils/utils.js';
 
 test("Reset Password", async ({page, request}) => {
     const lastIndex = jsonData.length - 1;
     const latestUser = jsonData[lastIndex];
-    const newPassword = "123478"
+    const newPassword = "1234"
     
     const userModel = {
         email: latestUser.email
@@ -20,8 +20,8 @@ test("Reset Password", async ({page, request}) => {
     await reset.resetPassword(userModel);
     await page.waitForTimeout(5000);
 
-    const messageId = await getLatestEmailId(request);
-    const snippet = await getEmailBody( request ,messageId );
+    
+    const snippet = await getEmailBody( request );
 
     const urlRegex = /(https?:\/\/\S+)/;
     const match = snippet.match(urlRegex);
@@ -35,11 +35,9 @@ test("Reset Password", async ({page, request}) => {
     await expect(page.locator('text=Password reset successfully')).toBeVisible();
 
     // save new password to json file
-    const jsonFilePath = path.join(process.cwd(), 'utils', 'userData.json'); // get the path to the json file
-    const users = JSON.parse(fs.readFileSync(jsonFilePath, 'utf-8')); // read the file
-    users[lastIndex].password = newPassword; // update the password
-    fs.writeFileSync(jsonFilePath, JSON.stringify(users, null, 2)); // write the file
-
+    latestUser.password = newPassword;
+    fs.writeFileSync("./utils/userData.json", JSON.stringify(jsonData, null, 2));
+    await page.waitForTimeout(3000);
 
  // npx playwright test ResetPasswordTestRunner.spec.js 
  

@@ -9,10 +9,7 @@ const generateRandomNumber = (min, max) => {
 
 const gmailBaseURL = "https://gmail.googleapis.com";
 const token = process.env.GOOGLE_ACCESS_TOKEN || ""
-/**
- 
-  @param {import('@playwright/test').APIRequestContext} request
- */
+
 async function getLatestEmailId(request) {
     const response = await request.get(gmailBaseURL + "/gmail/v1/users/me/messages", {
         headers: {
@@ -27,12 +24,9 @@ async function getLatestEmailId(request) {
     return data.messages[0].id;
 }
 
-/**
- 
- * @param {import('@playwright/test').APIRequestContext} request
- * @param {string} emailId
- */
-async function getEmailBody(request, emailId) {
+
+async function getEmailBody(request) {
+    const emailId = await getLatestEmailId(request);
     const response = await request.get(gmailBaseURL + "/gmail/v1/users/me/messages/" + emailId, {
         headers: {
             "Accept": "application/json",

@@ -4,30 +4,15 @@ import LoginPage from '../pages/loginPage.js';
 import CostPage from '../pages/costPage.js';
 import ProfileSettingsPage from '../pages/profileSettingsPage.js';
 
-
-test.describe("User Test", () => {
+test.beforeEach("User Login", async ({ page }) => {
   const latestUser = jsonData[jsonData.length - 1];
-
-  test("User Login", async ({ page }) => {
-    await page.goto("/")
+    await page.goto("/");
     const loginPage = new LoginPage(page);
     await loginPage.doLogin(latestUser.email, latestUser.password);
-    // assertion
-    //await expect(page.getByText("Dashboard")).toBeVisible({ timeout: 2000 });
-
+    
   });
 
-  test.describe("Other test require login", () => {
-    test.beforeEach(async ({ page }) => {
-      await page.goto('/');
-
-      const loginPage = new LoginPage(page);
-      await loginPage.doLogin(latestUser.email, latestUser.password);
-
-      await page.waitForLoadState('networkidle');
-    });
-
-    test("Add two random items", async ({ page }) => {
+  test("Login and add two random items", async ({ page }) => {
       const costPage = new CostPage(page);
       const cost1 = {
         name: 'Milk',
@@ -60,15 +45,7 @@ test.describe("User Test", () => {
       await profile.uploadProfileImage(filePath);
       // await page.pause();
 
+      // npx playwright test LoginTestRunner.spec.js 
       
     })
-
-
-  });
-
-// npx playwright test LoginTestRunner.spec.js 
-
-});
-
-
 

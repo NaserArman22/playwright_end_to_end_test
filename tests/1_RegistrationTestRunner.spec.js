@@ -4,7 +4,7 @@ import jsonData from "../utils/userData.json" ;
 import fs from 'fs';
 import {generateRandomNumber} from '../utils/utils.js';
 import RegistrationPage from "../pages/registrationPage.js";
-import { getLatestEmailId, getEmailBody } from '../utils/utils.js';
+import { getEmailBody } from '../utils/utils.js';
 
 
 test ("User Registration", async ({page, request}) => {
@@ -21,6 +21,12 @@ test ("User Registration", async ({page, request}) => {
 
     }
     await reg.registerUser(userModel);
+    await page.waitForTimeout(5000);
+
+    // assert congratulation email
+    // const messageId = await getLatestEmailId(request);
+    const snippet = await getEmailBody(request);
+    expect(snippet).toContain("Welcome to our platform");
     
     // assert toast message
     const toastLocator = page.locator(".Toastify__toast");
@@ -28,10 +34,7 @@ test ("User Registration", async ({page, request}) => {
     const msg = await toastLocator.textContent();
     expect(msg).toContain(" successfully");
 
-    // assert congratulation email
-    const messageId = await getLatestEmailId(request);
-    const snippet = await getEmailBody(request, messageId);
-    expect(snippet).toContain("Welcome to our platform");
+    
     
     // save user data to json file
     jsonData.push(userModel);
