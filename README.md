@@ -56,7 +56,7 @@ This project is an end-to-end UI automation testing suite for DailyFinance using
 
 ## Full Automation Process Recording Video
 You can watch the full automation process execution in the recorded video below:  
-[Watch Full Automation Demo Video](https://drive.google.com/file/d/1Kgu11YBPzRzhmPmyL1fRGGmeF9ek_884/view?usp=sharing)
+[Watch Full Automation Demo Video](https://drive.google.com/file/d/1akHqu7fT7wb0eiw6HhDwPY6wRPhppziE/view?usp=sharing)
 
 ---
 
