@@ -42,7 +42,7 @@
 ##  Test Case Documentation
 
  All standard and negative test cases are documented in this Google Sheet:  
-   [Test Cases - DailyFinance Automation]()
+   [Test Cases - DailyFinance Automation]( )
    
 ---
 
