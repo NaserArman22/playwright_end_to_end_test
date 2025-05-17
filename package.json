@@ -1,0 +1,26 @@
+{
+  "name": "playwright-pom-intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "chai": "^5.2.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18",
+    "allure-playwright": "^3.2.2",
+    "mocha": "^11.3.0",
+    "mochawesome": "^7.1.3",
+    "playwright": "^1.52.0"
+  }
+}
