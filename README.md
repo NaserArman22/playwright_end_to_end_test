@@ -50,7 +50,7 @@ This project is an end-to-end UI automation testing suite for DailyFinance using
 ##  Test Case Documentation
 
  All standard and negative test cases are documented in this Google Sheet:  
-   [Test Cases - DailyFinance Automation]( )
+   [Test Cases - DailyFinance Automation](https://docs.google.com/spreadsheets/d/1g-dvxlzvEiuoShk6_Bihj5EO7ZRY_haCnpip77R4APA/edit?usp=sharing)
    
 ---
 
